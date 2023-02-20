@@ -10,15 +10,15 @@
 </head>
 <body>
     <nav class="navigation"> 
-        <img src="img/ng-border.png" alt="frame">
-        <img src="img/ng-logo-2fl.webp" alt="logo">
+        <img class="logo-border" src="img/ng-border.png" alt="frame">
+        <img class="logo" src="img/ng-logo-2fl.webp" alt="logo">
         <div>
-            <a href="#">Login</a>
-            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-            <a href="#">Newsletters</a>
-            <a href="#">Subscribe</a>
-            <a href="#">Menu</a>
-            <a href="#"><i class="fa-solid fa-angles-down"></i></a>
+            <a class="link-login" href="#">Login</a>
+            <a class="link-search" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a class="link-news" href="#">Newsletters</a>
+            <a class="link-subs" href="#">Subscribe</a>
+            <a class="link-menu" href="#">Menu</a>
+            <a class="link-angle" href="#"><i class="fa-solid fa-angles-down"></i></a>
         </div>
     </nav>
     <header>
@@ -27,32 +27,40 @@
         <div></div>
     </header>
     <main>
-        <div>
-           <img src="img/covid.avif" alt="covid">
-            <div>
-                <h3>Science Coronavirus coverage</h3>
-                <p>COVID can trigger tinnitus. Could the vaccines do the same?</p>
-                <a href="#"><i class="fa-solid fa-bars"></i> Read</a>
-            </div>
+        <div class="news-container">
+            <div class="main-news">
+                <img src="img/covid.avif" alt="covid">
+                <div class="main-news-text">
+                    <h3>Science Coronavirus coverage</h3>
+                    <p>COVID can trigger tinnitus. Could the vaccines do the same?</p>
+                    <a class="read-btn" href="#"><i class="fa-solid fa-bars"></i> Read</a>
+                </div><!--.main-news-text--> 
+            </div><!--.main-news-->
 
-            <div>
-                <img src="img/bat.avif" alt="Bat">
-                <div>
+            <div class="secondary-news">
+                <div class="secondary-news-img">
+                    <img src="img/bat.avif" alt="Bat">
+                </div><!--secondary-news-img-->
+               
+                <div class="secondary-news-text">
                     <h3>Animals wildlife watch</h3>
                     <p>Etsy and eBay are selling dead bats- and scientist are disturbed</p>
-                    <a href="#"><i class="fa-solid fa-bars"></i> Read</a>
-                </div>
-            </div>
+                    <a class="read-btn" href="#"><i class="fa-solid fa-bars"></i> Read</a>
+                </div><!--secondary-news-text-->
+            </div><!--secondary-news-->
 
-            <div>
-                <img src="img/pr.avif" alt="Puerto Rico">
-                <div>
+            <div class="secondary-news">
+                <div class="secondary-news-img">
+                    <img src="img/pr.avif" alt="Puerto Rico">
+                </div>
+                
+                <div class="secondary-news-text">
                     <h3>Travel</h3>
                     <p>Puerto Rico's new trail traverses a tropical rainforest</p>
-                    <a href="#"><i class="fa-solid fa-bars"></i> Read</a>
+                    <a class="read-btn" href="#"><i class="fa-solid fa-bars"></i> Read</a>
                 </div>
             </div>
-        </div>
+        </div><!--news-container-->
 
         <section>
             <h2>Today's Picks</h2>
