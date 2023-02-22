@@ -29,6 +29,10 @@ img{
     font-weight: bold;
     font-size: 13px;
 }
+.container{
+    width:95%;
+    margin:0 auto;
+}
 /*nav*/
 nav.navigation{
     display: flex;
@@ -153,4 +157,27 @@ nav.navigation{
 }
 .secondary-news-text .read-btn{
     color:black;
+}
+/*today's picks*/
+.todays-title{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 24px;
+}
+
+.todays-item{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.todays-item-img{
+    width:85px;
+    height: 85px;
+}
+.todays-item img{
+    width: 100%;
+    height: 100%;
+}
+.todays-item-text{
+
 }
